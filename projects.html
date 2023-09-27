@@ -1,0 +1,79 @@
+<!--
+	File: projects.html
+	GUI Assignment: Creating Your First Web Page
+	Yash Patel, UMass Lowell Computer Science, Yash_Patel5@student.uml.edu
+	Copyright (c) 2021 by Wenjin. All rights reserved. May be freely copied or
+	excerpted for educational purposes with credit to the author.
+	updated by WZ on July 7, 2021 at 9:23 AM
+
+	Date: September 26, 2023
+	Description: The website I created is about myself, my work experiences, and projects I have done. 
+				This file contains the code for the projects page.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Projects Page</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!-- This div is for the title of the page and the navigation bar -->
+        <div class="title">
+            <h1>Projects</h1>
+            <h4>Information about my projects</h4>
+            <nav id="navbar">
+                <div class="list">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="work.html">Work Experience</a></li>
+                        <li><a href="#">Projects</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        
+        <!-- This div is for the table which contains the text about the projects -->
+        <div class="project-table">
+            <table>
+                <tr>
+                    <th>Project</th>
+                    <th>Description</th>
+                    <th>Languages/Tools Used</th>
+                </tr>
+                <tr>
+                    <td>HEIC To JPG Converter</td>
+                    <td>
+                        <p>This project was to develop a website using Amazon Web Services resources with a team. Our project idea was to create a website which would convert HEIC images, 
+                            which is the default format of the images taken from an iPhone, to JPG format. Resources such as AWS Cognito, AWS API Gateway, API Lambda, AWS DynamDB, AWS S3 
+                            Bucket, AWS Amplify, and AWS CodeCommit were utilized to design the website. My main responsibility for this project was to design a way to launch all AWS 
+                            services which were required with their specific configuration with a minimal effort from the user. I wrote bash scripts and AWS CloudFormation templates which 
+                            would deploy all the required services with necessary configuration with also giving an option to kill and delete all the resources when needed to shut down the website.</p>
+                    </td>
+                    <td>AWS, Bash Scripting, Github</td>  
+                </tr>    
+                <tr>
+                    <td>N-Body Simulation</td>
+                    <td>
+                        <p>This project was one of the projects for the Computing IV class I took in Spring 2022. The project was to create a program in C++ to simulate the motion of N 
+                            celestial bodies using the C++ SFML library and the leapfrog scheme. It involved designing the CelestialBody class for initializing and drawing a single 
+                            celestial body and the Universe class which would utilize vectors and smart pointers to hold objects for each planet. The extraction operator was also overloaded 
+                            for both the classes to parse the input file with the information such as positions, velocity, and masses of each planet.</p>
+                    </td>
+                    <td>C++, SFML</td>  
+                </tr>
+                <tr>
+                    <td>First Robotics</td>
+                    <td>
+                        <p>I was a part of the First Robotics Competition (FRC) Team 5962 for 3 years of my high school where I was part of the software subteam. I led the software subteam 
+                        which included about 5-10 members where my main duties were organizing and managing all software related tasks within the team alongside the team mentors. I was 
+                        responsible for designing and implementing the autonomous task performed by the robot using motion profiling, PID Control, and various sensors such as ultrasonics 
+                        and IMUS.</p>
+                    </td>
+                    <td>Java, Python, Github</td>  
+                </tr>
+            </table>      
+        </div>
+    </body>
+</html>

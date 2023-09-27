@@ -1,0 +1,135 @@
+/* This block is for specifying the common styling for the whole page */
+body{
+    background-color: rgb(214, 245, 248);
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* This block is for specifying the styling for the title division which is present in all three HTML files */
+.title{
+    background-color: rgb(33, 33, 33);
+    padding: 20px;
+    padding-left: 40px;
+    margin-bottom: -20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* This block is for specifying the styling for the main heading of the page */
+.title h1{
+    padding-left: 15px;
+    padding-bottom: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(146, 227, 246);
+}
+
+/* This block is for specifying the styling for the second heading */
+.title h4{
+    padding-top: 0px;
+    padding-left: 18px;
+    margin-top: -20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(146, 227, 246);
+    font-style: italic;
+}
+
+/* This block is for specifying the styling for the nav bar */
+#navbar{
+    float: right;
+    margin-top: -80px;
+}
+
+/* This block is for specifying the styling for the list of the nav bar */
+#navbar ul{
+    padding: 20px;
+    list-style: none;
+    margin-top: 0px;
+}
+
+/* These two blocks are for specifying the styling for each list item of the list of the nav bar */
+#navbar li{
+    display: inline;
+}
+#navbar a{
+    color:black;
+    text-decoration: none;
+    font-size: 19px;
+    padding-right: 20px;
+    padding-left: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px groove black;
+    border-radius: 20px;
+    background-color: rgb(146, 227, 246);
+}
+
+/* This block is for styling the list item when the cursor is placed on it */
+#navbar a:hover{
+    color:rgb(160, 2, 2);
+}
+
+/* This block is for specifying the styling for the text block on the home page */
+.text{
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding-top: 50px;
+}
+.text p{
+    margin: 20px;
+}
+
+/* This block is for specifying the styling for the image attached on the home page */
+img{
+    width: 30%;
+    height: 30%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 12px;
+    float: left;
+}
+
+/* This block is for specifying the styling for the table on the work history page */
+.work-table{
+    padding: 10px;
+    padding-top: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* This block is specifying the styling for the headings of the table on the work history page */
+.work-table th{
+    border: 1px double black;
+    font-size: 22px;
+}
+
+/* This block is specifying the styling for each row of the table on the work history page */
+.work-table td{
+    border: 2px dotted black;
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* This block is for specifying the styling for the table on the projects page */
+.project-table{
+    padding: 10px;
+    padding-top: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* This block is specifying the styling for the headings of the table on the projects page */
+.project-table th{
+    border: 1px double black;
+    font-size: 22px;
+}
+
+/* This block is specifying the styling for each row of the table on the projects page */
+.project-table td{
+    font-size: 20px;
+    padding: 10px;
+    border: 2px dotted black;
+}
+
+.validator{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}

@@ -1,0 +1,76 @@
+<!--
+	File: work.html
+	GUI Assignment: Creating Your First Web Page
+	Yash Patel, UMass Lowell Computer Science, Yash_Patel5@student.uml.edu
+	Copyright (c) 2021 by Wenjin. All rights reserved. May be freely copied or
+	excerpted for educational purposes with credit to the author.
+	updated by WZ on July 7, 2021 at 9:23 AM
+
+	Date: September 26, 2023
+	Description: The website I created is about myself, my work experiences, and projects I have done. 
+				This file contains the code for the wprk history page.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Work History Page</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!-- This div is for the title of the page and the navigation bar -->
+        <div class="title">
+            <h1>Work Experience</h1>
+            <h4>Information about my work experiences</h4>
+            <nav id="navbar">
+                <div class="list">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Work Experience</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <!-- This div is for the table which contains the text about my work experience -->
+        <div class="work-table">
+            <table>
+                <tr>
+                    <th>Period</th>
+                    <th>Location</th>
+                    <th>Position</th>
+                    <th>Description</th>
+                    <th>Languages/Tools Used</th>
+                </tr>
+                <tr>
+                    <td>June 2021 to Present</td>
+                    <td>UMass Lowell NERVE Center</td>
+                    <td>Undergraduate Research Assistant</td>
+                    <td>
+                    <ul>
+                        <li>Develop software in C++ and Python to perform navigation tests with multiple robots automatically without user interference.</li>
+                        <li>Utilize ROS libraries to perform navigation testing with robots in simulation and physical environments.</li>
+                        <li>Perform navigation tests with multiple robots using various configurations to evaluate their navigation capabilities.</li>
+                    </ul>
+                    </td>
+                    <td>Python, C++, Bash, Robot Operating System (ROS)</td>  
+                </tr>    
+                <tr>
+                <td>June 2020 to August 2020</td>
+                <td>UMass Lowell HRI Lab</td>
+                <td>Intern</td>
+                <td>
+                    <ul>
+                        <li>Utilized ROS Behavior Trees to perform smaller tasks with robots over simulation.</li>
+                        <li>Wrote software using ROS and C++ to traverse through the behavior tree nodes to attach information to the tree nodes.</li>
+                        <li>Created and modified behavior tree nodes to perform smaller tasks with robots over simulations.</li>
+                    </ul>
+                </td>
+                <td>C++, Robot Operating System (ROS), Python</td>  
+                </tr>
+            </table>      
+        </div>
+    </body>
+</html>
